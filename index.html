@@ -1,4 +1,4 @@
-<!DOCTYPE  html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -12,10 +12,80 @@
 </head>
 <body>
   <div id="app" class="container-fluid">
-  
+    <div class="row top-bar">
+      <h1 class="text-center">Free Code Camp Leaders</h1>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+        <nav class="row">
+          <ul class="nav nav-tabs col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" role="tablist">
+            <li role="presentation" class="active"><a href="#last-30-days" data-toggle="tab" role="tab">Last 30 days</a></li>
+            <li role="presentation"><a href="#all-time" data-toggle="tab" role="tab">All times</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="tab-content col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+        <div role="tabpanel" class="tab-pane active" id="last-30-days">
+          <div class="row list-item">
+            <a href="https://www.freecodecamp.com/ewathedoer" class="flex-parent col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+              <div class="col-xs-3">
+                <div class="avatar-box">
+                  <img class="img-responsive img-circle" alt="user's avatar" src="http://theonewhodo.es/images/ewa" />
+                  <span class="badge">1</span>
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div class="username">ewathedoer</div>
+                <div class="secondary-text">Total: 555 points</div>
+              </div>
+              <div class="col-xs-3">
+                <span class="badge">42 points</span>
+              </div>
+            </a>
+          </div>
+          <div class="row list-item">
+            <a href="https://www.freecodecamp.com/ewathedoer" class="flex-parent col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+              <div class="col-xs-3">
+                <div class="avatar-box">
+                  <img class="img-responsive img-circle" alt="user's avatar" src="http://theonewhodo.es/images/ewa" />
+                  <span class="badge">2</span>
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div class="username">ewathedoer</div>
+                <div class="secondary-text">Total: 455 points</div>
+              </div>
+              <div class="col-xs-3">
+                <span class="badge">40 points</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="all-time">
+          <div class="row list-item">
+            <a href="https://www.freecodecamp.com/ewathedoer" class="flex-parent col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+              <div class="col-xs-3">
+                <div class="avatar-box">
+                  <img class="img-responsive img-circle" alt="user's avatar" src="http://theonewhodo.es/images/ewa" />
+                  <span class="badge">1</span>
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div class="username">ewathedoer</div>
+                <div class="secondary-text">Last 30 days: 555 points</div>
+              </div>
+              <div class="col-xs-3">
+                <span class="badge">42 points</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   
-  <!-- Latest compiled and minified Bootsrap JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <!-- Latest compiled and minified Bootstrap JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>

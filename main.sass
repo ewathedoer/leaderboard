@@ -1,2 +1,47 @@
+$primary-color: #006400
+$secondary-color: #121212
+$contrast-color: #fff
+
 body
   font-family: 'Slabo 27px', serif
+  
+  .top-bar
+    background-color: $primary-color
+    color: $contrast-color
+  
+  nav a
+    color: $contrast-color
+  
+  .nav-tabs>li.active>a
+    color: $primary-color
+  
+  .secondary-text
+    font-style: italic
+  
+  .flex-parent
+    display: flex
+  
+  .flex-parent div
+    align-self: center
+  
+  .list-item
+    padding: 15px 0
+    
+    a
+      color: $secondary-color
+    
+  h1
+    font-size: 2em
+    
+  .avatar-box
+    position: relative
+    max-width: 100px
+    height: auto
+    margin: 0 auto
+    
+    .badge
+      position: absolute
+      top: 0
+      left: 0
+      background-color: $primary-color
+      opacity: 0.85

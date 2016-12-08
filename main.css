@@ -1,5 +1,46 @@
-/* line 1, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+/* line 5, /Users/thedoer/Documents/projects/leaderboard/main.sass */
 body {
   font-family: 'Slabo 27px', serif; }
+  /* line 8, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  body .top-bar {
+    background-color: #006400;
+    color: #fff; }
+  /* line 12, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  body nav a {
+    color: #fff; }
+  /* line 15, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  body .nav-tabs > li.active > a {
+    color: #006400; }
+  /* line 18, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  body .secondary-text {
+    font-style: italic; }
+  /* line 21, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  body .flex-parent {
+    display: flex; }
+  /* line 24, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  body .flex-parent div {
+    align-self: center; }
+  /* line 27, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  body .list-item {
+    padding: 15px 0; }
+    /* line 30, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+    body .list-item a {
+      color: #121212; }
+  /* line 33, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  body h1 {
+    font-size: 2em; }
+  /* line 36, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  body .avatar-box {
+    position: relative;
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto; }
+    /* line 42, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+    body .avatar-box .badge {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #006400;
+      opacity: 0.85; }
 
 /*# sourceMappingURL=main.css.map */
