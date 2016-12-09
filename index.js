@@ -31,8 +31,8 @@ var LastThirtyDaysContainer = React.createClass({
       <div className="text-center row">
         <div className="col-xs-12 col-sm-8 col-sm-offset-2">
           <img src="images/intro-image.jpg" alt="loading leaderboard, please wait" className="img-responsive img-circle center-block intro-img"/>
-          <h2>Loading the winners...</h2>
-          <a href="http://www.freepik.com/free-photos-vectors/poster" className="intro-link text-center ">Intro graphics designed by Freepik</a>
+          <h2>Loading the leaders...</h2>
+          <a href="http://www.freepik.com/free-vector/happy-polygonal-man-raising-hands_715894.htm" className="intro-link text-center">Intro graphics and favicon by Freepik</a>
         </div>
       </div>
     );
