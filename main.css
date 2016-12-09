@@ -74,6 +74,9 @@ body {
     font-size: 1.3em; }
   /* line 79, /Users/thedoer/Documents/projects/leaderboard/main.sass */
   body .nav a {
-    font-size: 1.3em; } }
+    font-size: 1.3em; }
+  /* line 82, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  body h1 {
+    font-size: 3em; } }
 
 /*# sourceMappingURL=main.css.map */
