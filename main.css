@@ -26,22 +26,23 @@ body {
     /* line 30, /Users/thedoer/Documents/projects/leaderboard/main.sass */
     body .list-item a {
       color: #121212;
-      transition: all 0.3s; }
-  /* line 34, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+      transition: all 0.3s;
+      padding: 15px 0; }
+  /* line 35, /Users/thedoer/Documents/projects/leaderboard/main.sass */
   body a:hover {
     text-decoration: none;
     color: #006400;
     transition: all 0.3s; }
-  /* line 39, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  /* line 40, /Users/thedoer/Documents/projects/leaderboard/main.sass */
   body h1 {
     font-size: 2em; }
-  /* line 42, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  /* line 43, /Users/thedoer/Documents/projects/leaderboard/main.sass */
   body .avatar-box {
     position: relative;
     max-width: 100px;
     height: auto;
     margin: 0 auto; }
-    /* line 48, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+    /* line 49, /Users/thedoer/Documents/projects/leaderboard/main.sass */
     body .avatar-box .badge {
       position: absolute;
       top: 0;

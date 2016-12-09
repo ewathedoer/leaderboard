@@ -67,22 +67,6 @@ var LastThirtyDaysContainer = React.createClass({
   }
 });
 
-/* <a href="https://www.freecodecamp.com/ewathedoer" className="flex-parent col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-            <div className="col-xs-3">
-              <div className="avatar-box">
-                <img className="img-responsive img-circle" alt="user's avatar" src="http://theonewhodo.es/images/ewa" />
-                <span className="badge">1</span>
-              </div>
-            </div>
-            <div className="col-xs-6">
-              <div className="username">ewathedoer</div>
-              <div className="secondary-text">Last 30 days: 555 points</div>
-            </div>
-            <div className="col-xs-3">
-              <span className="badge">42 points</span>
-            </div>
-          </a> */
-
 var AllTimeContainer = React.createClass({
   getInitialState: function() {
     return {
@@ -97,7 +81,24 @@ var AllTimeContainer = React.createClass({
 
       var results = [];
       for (var i = 0; i < data.length; i++) {
-        results.push(data[i].img);
+        var link = "https://www.freecodecamp.com/" + data[i].username;
+        results.push(
+          <a key={i} href={link} className="flex-parent col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+            <div className="col-xs-3">
+              <div className="avatar-box">
+                <img className="img-responsive img-circle" alt="user's avatar" src={data[i].img} />
+                <span className="badge">{i+1}</span>
+              </div>
+            </div>
+            <div className="col-xs-6">
+              <div className="username">{data[i].username}</div>
+              <div className="secondary-text">Last 30 days: {data[i].recent} points</div>
+            </div>
+            <div className="col-xs-3">
+              <span className="badge">{data[i].alltime} points</span>
+            </div>
+          </a>
+        );
       }
       that.setState({
         results: results
