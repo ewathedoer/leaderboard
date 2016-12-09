@@ -26,8 +26,18 @@ var Main = React.createClass({
 
 var LastThirtyDaysContainer = React.createClass({
   getInitialState: function() {
+    var loading = []; 
+    loading.push(  
+      <div className="text-center row">
+        <div className="col-xs-12 col-sm-8 col-sm-offset-2">
+          <img src="images/intro-image.jpg" alt="loading leaderboard, please wait" className="img-responsive img-circle center-block intro-img"/>
+          <h2>Loading the winners...</h2>
+          <a href="http://www.freepik.com/free-photos-vectors/poster" className="intro-link text-center ">Intro graphics designed by Freepik</a>
+        </div>
+      </div>
+    );
     return {
-      results: []
+      results: loading
     };
   },
   

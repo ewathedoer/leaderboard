@@ -56,13 +56,24 @@ body {
   /* line 60, /Users/thedoer/Documents/projects/leaderboard/main.sass */
   body .badge {
     font-size: 1em; }
+  /* line 63, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  body .intro-link {
+    color: #121212;
+    font-size: 0.7em; }
+  /* line 67, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  body .intro-img {
+    padding: 2em 0;
+    max-width: 250px; }
 
 @media screen and (min-width: 768px) {
-  /* line 65, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  /* line 73, /Users/thedoer/Documents/projects/leaderboard/main.sass */
   body .badge {
     font-size: 1.3em; }
-  /* line 68, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  /* line 76, /Users/thedoer/Documents/projects/leaderboard/main.sass */
   body .username {
+    font-size: 1.3em; }
+  /* line 79, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  body .nav a {
     font-size: 1.3em; } }
 
 /*# sourceMappingURL=main.css.map */
