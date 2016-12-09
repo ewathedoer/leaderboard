@@ -45,23 +45,6 @@ var LastThirtyDaysContainer = React.createClass({
             </div>
           </a>
         </div>
-        <div className="row list-item">
-          <a href="https://www.freecodecamp.com/ewathedoer" className="flex-parent col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-            <div className="col-xs-3">
-              <div className="avatar-box">
-                <img className="img-responsive img-circle" alt="user's avatar" src="http://theonewhodo.es/images/ewa" />
-                <span className="badge">2</span>
-              </div>
-            </div>
-            <div className="col-xs-6">
-              <div className="username">ewathedoer</div>
-              <div className="secondary-text">Total: 455 points</div>
-            </div>
-            <div className="col-xs-3">
-              <span className="badge">40 points</span>
-            </div>
-          </a>
-        </div>
       </div>
     );
   }
@@ -82,6 +65,12 @@ var AllTimeContainer = React.createClass({
       var results = [];
       for (var i = 0; i < data.length; i++) {
         var link = "https://www.freecodecamp.com/" + data[i].username;
+        var points = "";
+        if(data[i].recent == 1) {
+          points = "point"
+        } else {
+          points = "points"
+        }
         results.push(
           <a key={i} href={link} className="flex-parent col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
             <div className="col-xs-3">
@@ -92,7 +81,7 @@ var AllTimeContainer = React.createClass({
             </div>
             <div className="col-xs-6">
               <div className="username">{data[i].username}</div>
-              <div className="secondary-text">Last 30 days: {data[i].recent} points</div>
+              <div className="secondary-text">Last 30 days: {data[i].recent} {points}</div>
             </div>
             <div className="col-xs-3">
               <span className="badge">{data[i].alltime} points</span>
