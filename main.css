@@ -27,34 +27,38 @@ body {
     body .list-item a {
       color: #121212;
       transition: all 0.3s;
-      padding: 15px 0; }
-  /* line 35, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+      padding: 15px 0;
+      font-size: 1em; }
+  /* line 36, /Users/thedoer/Documents/projects/leaderboard/main.sass */
   body a:hover {
     text-decoration: none;
     color: #006400;
     transition: all 0.3s; }
-  /* line 40, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  /* line 41, /Users/thedoer/Documents/projects/leaderboard/main.sass */
   body h1 {
     font-size: 2em; }
-  /* line 43, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  /* line 44, /Users/thedoer/Documents/projects/leaderboard/main.sass */
   body .avatar-box {
     position: relative;
     max-width: 100px;
     height: auto;
     margin: 0 auto; }
-    /* line 49, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+    /* line 50, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+    body .avatar-box img {
+      width: 100%; }
+    /* line 53, /Users/thedoer/Documents/projects/leaderboard/main.sass */
     body .avatar-box .badge {
       position: absolute;
       top: 0;
       left: 0;
       background-color: #006400;
       opacity: 0.85; }
-  /* line 56, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  /* line 60, /Users/thedoer/Documents/projects/leaderboard/main.sass */
   body .badge {
     font-size: 1em; }
 
 @media screen and (min-width: 1024px) {
-  /* line 61, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  /* line 65, /Users/thedoer/Documents/projects/leaderboard/main.sass */
   body .badge {
     font-size: 1.3em; } }
 
