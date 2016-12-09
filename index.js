@@ -52,11 +52,11 @@ var LastThirtyDaysContainer = React.createClass({
                 <span className="badge">{i+1}</span>
               </div>
             </div>
-            <div className="col-xs-6">
+            <div className="col-xs-5 col-sm-6">
               <div className="username">{data[i].username}</div>
               <div className="secondary-text">Total: {data[i].alltime} {points}</div>
             </div>
-            <div className="col-xs-3">
+            <div className="col-xs-4 col-sm-3">
               <span className="badge">{data[i].recent} points</span>
             </div>
           </a>
@@ -107,11 +107,11 @@ var AllTimeContainer = React.createClass({
                 <span className="badge">{i+1}</span>
               </div>
             </div>
-            <div className="col-xs-6">
+            <div className="col-xs-5 col-sm-6">
               <div className="username">{data[i].username}</div>
-              <div className="secondary-text">Last 30 days: {data[i].recent} {points}</div>
+              <div className="secondary-text">30 days: {data[i].recent} {points}</div>
             </div>
-            <div className="col-xs-3">
+            <div className="col-xs-4 col-sm-3">
               <span className="badge">{data[i].alltime} points</span>
             </div>
           </a>
