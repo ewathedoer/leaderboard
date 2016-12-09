@@ -55,7 +55,7 @@ var LastThirtyDaysContainer = React.createClass({
           points = "points"
         }
         results.push(
-          <a key={i} href={link} className="flex-parent col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+          <a key={i} href={link} target="_blank" className="flex-parent col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
             <div className="col-xs-3">
               <div className="avatar-box">
                 <img className="img-responsive img-circle" alt="user's avatar" src={data[i].img} />
@@ -110,7 +110,7 @@ var AllTimeContainer = React.createClass({
           points = "points"
         }
         results.push(
-          <a key={i} href={link} className="flex-parent col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+          <a key={i} href={link} target="_blank" className="flex-parent col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
             <div className="col-xs-3">
               <div className="avatar-box">
                 <img className="img-responsive img-circle" alt="user's avatar" src={data[i].img} />
