@@ -49,5 +49,13 @@ body {
       left: 0;
       background-color: #006400;
       opacity: 0.85; }
+  /* line 56, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  body .badge {
+    font-size: 1em; }
+
+@media screen and (min-width: 1024px) {
+  /* line 61, /Users/thedoer/Documents/projects/leaderboard/main.sass */
+  body .badge {
+    font-size: 1.3em; } }
 
 /*# sourceMappingURL=main.css.map */
